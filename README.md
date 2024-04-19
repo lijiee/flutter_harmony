@@ -5,4 +5,4 @@
 * 1.使用 getx 框架做状态路由管理
 * 2.使用dio和retrofit做网络
 * 3.flutter_screenutil做屏幕适配
-* 4.base vm 封装/ 状态页面封装 等
+* 4.get vm 层 封装/  base 页面封装  
