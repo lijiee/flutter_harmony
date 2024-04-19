@@ -1,0 +1,14 @@
+{
+  name: 'entry',
+  version: '1.0.0',
+  description: 'Please describe the basic information.',
+  main: '',
+  author: '',
+  license: '',
+  dependencies: {
+    '@ohos/shared_preferences_ohos': 'file:./har/shared_preferences_ohos.har',
+    '@ohos/webview_flutter_ohos': 'file:./har/webview_flutter_ohos.har',
+    '@ohos/connectivity_plus': 'file:./har/connectivity_plus.har',
+    '@ohos/device_info_plus': 'file:./har/device_info_plus.har',
+  },
+}

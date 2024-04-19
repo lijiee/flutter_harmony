@@ -35,6 +35,7 @@ dependencies:
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
+
   cupertino_icons: ^1.0.2
   get: ^4.6.5
   flutter_smart_dialog: ^4.9.6
@@ -46,7 +47,7 @@ dependencies:
   basic_utils: ^5.4.2
   encrypt: ^5.0.1
   shared_preferences:
-    git:
+     git:
       url: "https://gitee.com/openharmony-sig/flutter_packages.git"
       path: "packages/shared_preferences/shared_preferences"
   webview_flutter:
@@ -57,10 +58,10 @@ dependencies:
     git:
       url: "https://gitee.com/openharmony-sig/flutter_plus_plugins.git"
       path: "packages/connectivity_plus/connectivity_plus"
-#  device_info_plus:
-#    git:
-#      url: "https://gitee.com/openharmony-sig/flutter_plus_plugins.git"
-#      path: "packages/device_info_plus/device_info_plus"
+  device_info_plus:
+    git:
+      url: "https://gitee.com/openharmony-sig/flutter_plus_plugins.git"
+      path: "packages/device_info_plus/device_info_plus"
 dev_dependencies:
   flutter_test:
     sdk: flutter

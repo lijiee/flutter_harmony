@@ -1,6 +1,22 @@
 <component name="libraryTable">
   <library name="Flutter Plugins" type="FlutterPluginsLibraryType">
-    <CLASSES />
+    <CLASSES>
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences_android-2.2.1" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences_web-2.2.1" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.flutter-io.cn/path_provider_windows-2.2.1" />
+      <root url="file://$USER_HOME$/.pub-cache/git/flutter_packages-b8d3881769ce50864e0c2de03f884c953aa11ae4/packages/shared_preferences/shared_preferences_ohos" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences_linux-2.3.2" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences_foundation-2.3.4" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.flutter-io.cn/shared_preferences_windows-2.3.2" />
+      <root url="file://$USER_HOME$/.pub-cache/git/flutter_packages-b8d3881769ce50864e0c2de03f884c953aa11ae4/packages/shared_preferences/shared_preferences" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.flutter-io.cn/path_provider_linux-2.2.1" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.flutter-io.cn/webview_flutter_wkwebview-3.9.4" />
+      <root url="file://$USER_HOME$/.pub-cache/git/flutter_packages-b8d3881769ce50864e0c2de03f884c953aa11ae4/packages/webview_flutter/webview_flutter" />
+      <root url="file://$USER_HOME$/.pub-cache/git/flutter_packages-b8d3881769ce50864e0c2de03f884c953aa11ae4/packages/webview_flutter/webview_flutter_ohos" />
+      <root url="file://$USER_HOME$/.pub-cache/git/flutter_plus_plugins-806c8ee23e39ec18d339b45ac8d326d4dda99355/packages/connectivity_plus/connectivity_plus" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.flutter-io.cn/webview_flutter_android-3.12.1" />
+      <root url="file://$USER_HOME$/.pub-cache/git/flutter_plus_plugins-806c8ee23e39ec18d339b45ac8d326d4dda99355/packages/device_info_plus/device_info_plus" />
+    </CLASSES>
     <JAVADOC />
     <SOURCES />
   </library>

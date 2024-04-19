@@ -4,7 +4,7 @@
 # This file should be version controlled.
 
 version:
-  revision: fb3c883a8fbe616d765f8650583b3df9b7dc231d
+  revision: 3de7cbf87be280d9411793a276cce3ccd665e9ae
   channel: dev
 
 project_type: app
@@ -13,29 +13,29 @@ project_type: app
 migration:
   platforms:
     - platform: root
-      create_revision: fb3c883a8fbe616d765f8650583b3df9b7dc231d
-      base_revision: fb3c883a8fbe616d765f8650583b3df9b7dc231d
+      create_revision: 3de7cbf87be280d9411793a276cce3ccd665e9ae
+      base_revision: 3de7cbf87be280d9411793a276cce3ccd665e9ae
     - platform: android
-      create_revision: fb3c883a8fbe616d765f8650583b3df9b7dc231d
-      base_revision: fb3c883a8fbe616d765f8650583b3df9b7dc231d
+      create_revision: 3de7cbf87be280d9411793a276cce3ccd665e9ae
+      base_revision: 3de7cbf87be280d9411793a276cce3ccd665e9ae
     - platform: ios
-      create_revision: fb3c883a8fbe616d765f8650583b3df9b7dc231d
-      base_revision: fb3c883a8fbe616d765f8650583b3df9b7dc231d
+      create_revision: 3de7cbf87be280d9411793a276cce3ccd665e9ae
+      base_revision: 3de7cbf87be280d9411793a276cce3ccd665e9ae
     - platform: linux
-      create_revision: fb3c883a8fbe616d765f8650583b3df9b7dc231d
-      base_revision: fb3c883a8fbe616d765f8650583b3df9b7dc231d
+      create_revision: 3de7cbf87be280d9411793a276cce3ccd665e9ae
+      base_revision: 3de7cbf87be280d9411793a276cce3ccd665e9ae
     - platform: macos
-      create_revision: fb3c883a8fbe616d765f8650583b3df9b7dc231d
-      base_revision: fb3c883a8fbe616d765f8650583b3df9b7dc231d
+      create_revision: 3de7cbf87be280d9411793a276cce3ccd665e9ae
+      base_revision: 3de7cbf87be280d9411793a276cce3ccd665e9ae
     - platform: web
-      create_revision: fb3c883a8fbe616d765f8650583b3df9b7dc231d
-      base_revision: fb3c883a8fbe616d765f8650583b3df9b7dc231d
+      create_revision: 3de7cbf87be280d9411793a276cce3ccd665e9ae
+      base_revision: 3de7cbf87be280d9411793a276cce3ccd665e9ae
     - platform: windows
-      create_revision: fb3c883a8fbe616d765f8650583b3df9b7dc231d
-      base_revision: fb3c883a8fbe616d765f8650583b3df9b7dc231d
+      create_revision: 3de7cbf87be280d9411793a276cce3ccd665e9ae
+      base_revision: 3de7cbf87be280d9411793a276cce3ccd665e9ae
     - platform: ohos
-      create_revision: fb3c883a8fbe616d765f8650583b3df9b7dc231d
-      base_revision: fb3c883a8fbe616d765f8650583b3df9b7dc231d
+      create_revision: 3de7cbf87be280d9411793a276cce3ccd665e9ae
+      base_revision: 3de7cbf87be280d9411793a276cce3ccd665e9ae
 
   # User provided section
 
