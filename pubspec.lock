@@ -635,7 +635,7 @@ packages:
   shared_preferences_ohos:
     dependency: transitive
     description:
-      path: "../../../.pub-cache/git/flutter_packages-b8d3881769ce50864e0c2de03f884c953aa11ae4/packages/shared_preferences/shared_preferences_ohos"
+      path: "../../.pub-cache/git/flutter_packages-b8d3881769ce50864e0c2de03f884c953aa11ae4/packages/shared_preferences/shared_preferences_ohos"
       relative: true
     source: path
     version: "2.2.0"
@@ -824,7 +824,7 @@ packages:
   webview_flutter_ohos:
     dependency: transitive
     description:
-      path: "../../../.pub-cache/git/flutter_packages-b8d3881769ce50864e0c2de03f884c953aa11ae4/packages/webview_flutter/webview_flutter_ohos"
+      path: "../../.pub-cache/git/flutter_packages-b8d3881769ce50864e0c2de03f884c953aa11ae4/packages/webview_flutter/webview_flutter_ohos"
       relative: true
     source: path
     version: "3.9.3"

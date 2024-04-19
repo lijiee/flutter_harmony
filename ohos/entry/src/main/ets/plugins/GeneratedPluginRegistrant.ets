@@ -1,5 +1,4 @@
-import FlutterEngine from '@ohos/flutter_ohos/src/main/ets/embedding/engine/FlutterEngine';
-import Log from '@ohos/flutter_ohos/src/main/ets/util/Log';
+import { FlutterEngine, Log } from '@ohos/flutter_ohos';
 import ConnectivityPlugin from '@ohos/connectivity_plus'
 import DeviceInfoPlusOhosPlugin from '@ohos/device_info_plus'
 import SharedPreferencesPlugin from '@ohos/shared_preferences_ohos'
