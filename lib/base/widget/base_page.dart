@@ -25,14 +25,18 @@ abstract class BasePage<T extends BaseViewModel> extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return GetBuilder<T>(builder: (cxt) {
-      return Scaffold(
-        appBar: _createAppBar(context),
-        body: _buildBody(context),
-        bottomNavigationBar: bottomNavigationBar(),
-        resizeToAvoidBottomInset: false,
-      );
-    });
+    return GetBuilder<T>(
+      builder: (cxt) {
+        return Scaffold(
+          appBar: _createAppBar(context),
+          body: _buildBody(context),
+          bottomNavigationBar: bottomNavigationBar(),
+          resizeToAvoidBottomInset: false,
+        );
+      },
+      global: global(),
+      tag: tag,
+    );
   }
 
   ///AppBar生成逻辑
@@ -87,7 +91,7 @@ abstract class BasePage<T extends BaseViewModel> extends StatelessWidget {
   }
 
   ///加载失败需要重新加载时必须实现
- void loadAgain() {}
+  void loadAgain() {}
 
   ///是否展示titleBar标题栏
   bool showTitleBar() => true;
@@ -95,10 +99,14 @@ abstract class BasePage<T extends BaseViewModel> extends StatelessWidget {
   ///是否展示回退按钮
   bool showBackButton() => true;
 
+  ///是否为全局 global
+  bool global() => true;
+
   ///showSuccess展示成功的布局
   Widget buildContent(BuildContext context);
 
   ///页面标题设置
   String titleString() => "";
+
   List<Widget> createActionList() => [];
 }
