@@ -1,8 +1,4 @@
 import { FlutterEngine, Log } from '@ohos/flutter_ohos';
-import ConnectivityPlugin from 'connectivity_plus';
-import DeviceInfoPlusOhosPlugin from 'device_info_plus';
-import SharedPreferencesPlugin from 'shared_preferences_ohos';
-import WebViewFlutterPlugin from 'webview_flutter_ohos';
 
 /**
  * Generated file. Do not edit.
@@ -16,10 +12,6 @@ export class GeneratedPluginRegistrant {
 
   static registerWith(flutterEngine: FlutterEngine) {
     try {
-      flutterEngine.getPlugins()?.add(new ConnectivityPlugin());
-      flutterEngine.getPlugins()?.add(new DeviceInfoPlusOhosPlugin());
-      flutterEngine.getPlugins()?.add(new SharedPreferencesPlugin());
-      flutterEngine.getPlugins()?.add(new WebViewFlutterPlugin());
     } catch (e) {
       Log.e(
         TAG,

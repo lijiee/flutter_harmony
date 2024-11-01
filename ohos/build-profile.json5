@@ -1,26 +1,27 @@
+/*
+* Copyright (c) 2023 Hunan OpenValley Digital Industry Development Co., Ltd.
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*     http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+*/
+
 {
   "app": {
-    "signingConfigs": [
-      {
-        "name": "default",
-        "type": "HarmonyOS",
-        "material": {
-          "certpath": "/Users/chuawen/.ohos/config/default_ohos_WUkYOCKUA3uOHlegOfEuERAYegJZdxqxWtPPi8k8cUc=.cer",
-          "storePassword": "0000001A217EF634F12E7949D0B46DF976B091E0F3EC7FDDA1652DBD525CA1249B4941F91CC5868CCA36",
-          "keyAlias": "debugKey",
-          "keyPassword": "0000001AF8AEBB1805F6149D37AAED183512189E939B065B90893F870526D6364807FB27AD16D94B875B",
-          "profile": "/Users/chuawen/.ohos/config/default_ohos_WUkYOCKUA3uOHlegOfEuERAYegJZdxqxWtPPi8k8cUc=.p7b",
-          "signAlg": "SHA256withECDSA",
-          "storeFile": "/Users/chuawen/.ohos/config/default_ohos_WUkYOCKUA3uOHlegOfEuERAYegJZdxqxWtPPi8k8cUc=.p12"
-        }
-      }
-    ],
+    "signingConfigs": [],
     "products": [
       {
         "name": "default",
         "signingConfig": "default",
-        "compatibleSdkVersion": "4.1.0(11)",
-        "runtimeOS": "HarmonyOS"
+        "compatibleSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS",
       }
     ]
   },
@@ -28,54 +29,6 @@
     {
       "name": "entry",
       "srcPath": "./entry",
-      "targets": [
-        {
-          "name": "default",
-          "applyToProducts": [
-            "default"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "shared_preferences_ohos",
-      "srcPath": "../../../.pub-cache/git/flutter_packages-b8d3881769ce50864e0c2de03f884c953aa11ae4/packages/shared_preferences/shared_preferences_ohos/ohos",
-      "targets": [
-        {
-          "name": "default",
-          "applyToProducts": [
-            "default"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "webview_flutter_ohos",
-      "srcPath": "../../../.pub-cache/git/flutter_packages-b8d3881769ce50864e0c2de03f884c953aa11ae4/packages/webview_flutter/webview_flutter_ohos/ohos",
-      "targets": [
-        {
-          "name": "default",
-          "applyToProducts": [
-            "default"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "connectivity_plus",
-      "srcPath": "../../../.pub-cache/git/flutter_plus_plugins-806c8ee23e39ec18d339b45ac8d326d4dda99355/packages/connectivity_plus/connectivity_plus/ohos",
-      "targets": [
-        {
-          "name": "default",
-          "applyToProducts": [
-            "default"
-          ]
-        }
-      ]
-    },
-    {
-      "name": "device_info_plus",
-      "srcPath": "../../../.pub-cache/git/flutter_plus_plugins-806c8ee23e39ec18d339b45ac8d326d4dda99355/packages/device_info_plus/device_info_plus/ohos",
       "targets": [
         {
           "name": "default",
