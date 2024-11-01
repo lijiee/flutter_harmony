@@ -166,7 +166,7 @@ packages:
     description:
       path: "packages/connectivity_plus/connectivity_plus"
       ref: HEAD
-      resolved-ref: "806c8ee23e39ec18d339b45ac8d326d4dda99355"
+      resolved-ref: b2892501eac8c8553f21db493f2fa1d5e22653f6
       url: "https://gitee.com/openharmony-sig/flutter_plus_plugins.git"
     source: git
     version: "5.0.1"
@@ -223,7 +223,7 @@ packages:
     description:
       path: "packages/device_info_plus/device_info_plus"
       ref: HEAD
-      resolved-ref: "806c8ee23e39ec18d339b45ac8d326d4dda99355"
+      resolved-ref: b2892501eac8c8553f21db493f2fa1d5e22653f6
       url: "https://gitee.com/openharmony-sig/flutter_plus_plugins.git"
     source: git
     version: "9.1.0"
@@ -231,18 +231,26 @@ packages:
     dependency: transitive
     description:
       name: device_info_plus_platform_interface
-      sha256: d3b01d5868b50ae571cd1dc6e502fc94d956b665756180f7b16ead09e836fd64
+      sha256: "282d3cf731045a2feb66abfe61bbc40870ae50a3ed10a4d3d217556c35c8c2ba"
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "7.0.0"
+    version: "7.0.1"
   dio:
     dependency: "direct main"
     description:
       name: dio
-      sha256: "11e40df547d418cc0c4900a9318b26304e665da6fa4755399a9ff9efd09034b5"
+      sha256: "5598aa796bbf4699afd5c67c0f5f6e2ed542afc956884b9cd58c306966efc260"
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "5.4.3+1"
+    version: "5.7.0"
+  dio_web_adapter:
+    dependency: transitive
+    description:
+      name: dio_web_adapter
+      sha256: "36c5b2d79eb17cdae41e974b7a8284fec631651d2a6f39a8a2ff22327e90aeac"
+      url: "https://pub.flutter-io.cn"
+    source: hosted
+    version: "1.0.1"
   encrypt:
     dependency: "direct main"
     description:
@@ -313,10 +321,10 @@ packages:
     dependency: "direct main"
     description:
       name: flutter_smart_dialog
-      sha256: e9ee69eeac16165d142f1974b4db05ca9846cffafb7c94674a38ec07d7e6cda1
+      sha256: "7932ab58440379094c6a568efc329d322c6dd740e5a553080f2d56a71ed53752"
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "4.9.6"
+    version: "4.9.8+3"
   flutter_test:
     dependency: "direct dev"
     description: flutter
@@ -587,10 +595,10 @@ packages:
     dependency: "direct main"
     description:
       name: retrofit
-      sha256: "13a2865c0d97da580ea4e3c64d412d81f365fd5b26be2a18fca9582e021da37a"
+      sha256: "3c9885ef3dbc5dc4b3fb0a40c972ab52e4dad04d52dac9bba24dfa76cf100451"
       url: "https://pub.flutter-io.cn"
     source: hosted
-    version: "4.1.0"
+    version: "4.4.1"
   retrofit_generator:
     dependency: "direct dev"
     description:
@@ -604,7 +612,7 @@ packages:
     description:
       path: "packages/shared_preferences/shared_preferences"
       ref: HEAD
-      resolved-ref: b8d3881769ce50864e0c2de03f884c953aa11ae4
+      resolved-ref: c9cb253582c3b0c626a70c9103fc4906695b3d76
       url: "https://gitee.com/openharmony-sig/flutter_packages.git"
     source: git
     version: "2.2.0"
@@ -635,9 +643,11 @@ packages:
   shared_preferences_ohos:
     dependency: transitive
     description:
-      path: "../../.pub-cache/git/flutter_packages-b8d3881769ce50864e0c2de03f884c953aa11ae4/packages/shared_preferences/shared_preferences_ohos"
-      relative: true
-    source: path
+      path: "packages/shared_preferences/shared_preferences_ohos"
+      ref: HEAD
+      resolved-ref: c9cb253582c3b0c626a70c9103fc4906695b3d76
+      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
+    source: git
     version: "2.2.0"
   shared_preferences_platform_interface:
     dependency: transitive
@@ -809,41 +819,46 @@ packages:
     description:
       path: "packages/webview_flutter/webview_flutter"
       ref: HEAD
-      resolved-ref: b8d3881769ce50864e0c2de03f884c953aa11ae4
+      resolved-ref: c9cb253582c3b0c626a70c9103fc4906695b3d76
       url: "https://gitee.com/openharmony-sig/flutter_packages.git"
     source: git
-    version: "4.2.4"
+    version: "4.6.0"
   webview_flutter_android:
     dependency: transitive
     description:
-      name: webview_flutter_android
-      sha256: "8326ee235f87605a2bfc444a4abc897f4abc78d83f054ba7d3d1074ce82b4fbf"
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "3.12.1"
+      path: "packages/webview_flutter/webview_flutter_android"
+      ref: HEAD
+      resolved-ref: c9cb253582c3b0c626a70c9103fc4906695b3d76
+      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
+    source: git
+    version: "3.15.0"
   webview_flutter_ohos:
     dependency: transitive
     description:
-      path: "../../.pub-cache/git/flutter_packages-b8d3881769ce50864e0c2de03f884c953aa11ae4/packages/webview_flutter/webview_flutter_ohos"
-      relative: true
-    source: path
-    version: "3.9.3"
+      path: "packages/webview_flutter/webview_flutter_ohos"
+      ref: HEAD
+      resolved-ref: c9cb253582c3b0c626a70c9103fc4906695b3d76
+      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
+    source: git
+    version: "3.15.0"
   webview_flutter_platform_interface:
     dependency: transitive
     description:
-      name: webview_flutter_platform_interface
-      sha256: "6d9213c65f1060116757a7c473247c60f3f7f332cac33dc417c9e362a9a13e4f"
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "2.6.0"
+      path: "packages/webview_flutter/webview_flutter_platform_interface"
+      ref: HEAD
+      resolved-ref: c9cb253582c3b0c626a70c9103fc4906695b3d76
+      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
+    source: git
+    version: "2.10.0"
   webview_flutter_wkwebview:
     dependency: transitive
     description:
-      name: webview_flutter_wkwebview
-      sha256: accdaaa49a2aca2dc3c3230907988954cdd23fed0a19525d6c9789d380f4dc76
-      url: "https://pub.flutter-io.cn"
-    source: hosted
-    version: "3.9.4"
+      path: "packages/webview_flutter/webview_flutter_wkwebview"
+      ref: HEAD
+      resolved-ref: c9cb253582c3b0c626a70c9103fc4906695b3d76
+      url: "https://gitee.com/openharmony-sig/flutter_packages.git"
+    source: git
+    version: "3.12.0"
   win32:
     dependency: transitive
     description:

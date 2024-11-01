@@ -1,8 +1,8 @@
 import { FlutterEngine, Log } from '@ohos/flutter_ohos';
-import ConnectivityPlugin from '@ohos/connectivity_plus'
-import DeviceInfoPlusOhosPlugin from '@ohos/device_info_plus'
-import SharedPreferencesPlugin from '@ohos/shared_preferences_ohos'
-import WebViewFlutterPlugin from '@ohos/webview_flutter_ohos'
+import ConnectivityPlugin from 'connectivity_plus';
+import DeviceInfoPlusOhosPlugin from 'device_info_plus';
+import SharedPreferencesPlugin from 'shared_preferences_ohos';
+import WebViewFlutterPlugin from 'webview_flutter_ohos';
 
 /**
  * Generated file. Do not edit.

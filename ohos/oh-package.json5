@@ -1,19 +1,5 @@
-/*
-* Copyright (c) 2023 Hunan OpenValley Digital Industry Development Co., Ltd.
-* Licensed under the Apache License, Version 2.0 (the "License");
-* you may not use this file except in compliance with the License.
-* You may obtain a copy of the License at
-*
-*     http://www.apache.org/licenses/LICENSE-2.0
-*
-* Unless required by applicable law or agreed to in writing, software
-* distributed under the License is distributed on an "AS IS" BASIS,
-* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-* See the License for the specific language governing permissions and
-* limitations under the License.
-*/
-
 {
+  "modelVersion": "5.0.0",
   "name": "cailueedu",
   "version": "1.0.0",
   "description": "Please describe the basic information.",
@@ -27,6 +13,11 @@
     "@ohos/hypium": "1.0.6"
   },
   "overrides": {
-    "@ohos/flutter_ohos": "file:./har/flutter.har"
+    "@ohos/flutter_ohos": "file:./har/flutter.har",
+    "shared_preferences_ohos": "../../../.pub-cache/git/flutter_packages-b8d3881769ce50864e0c2de03f884c953aa11ae4/packages/shared_preferences/shared_preferences_ohos/ohos",
+    "webview_flutter_ohos": "../../../.pub-cache/git/flutter_packages-b8d3881769ce50864e0c2de03f884c953aa11ae4/packages/webview_flutter/webview_flutter_ohos/ohos",
+    "connectivity_plus": "../../../.pub-cache/git/flutter_plus_plugins-806c8ee23e39ec18d339b45ac8d326d4dda99355/packages/connectivity_plus/connectivity_plus/ohos",
+    "device_info_plus": "../../../.pub-cache/git/flutter_plus_plugins-806c8ee23e39ec18d339b45ac8d326d4dda99355/packages/device_info_plus/device_info_plus/ohos",
+    "@ohos/flutter_module": "file:./entry"
   }
 }
